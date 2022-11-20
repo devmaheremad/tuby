@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tuby/static/css/main.d77a14dd.css",
-    "main.js": "/tuby/static/js/main.2def8e8f.js",
+    "main.js": "/tuby/static/js/main.329c46e8.js",
     "index.html": "/tuby/index.html",
     "main.d77a14dd.css.map": "/tuby/static/css/main.d77a14dd.css.map",
-    "main.2def8e8f.js.map": "/tuby/static/js/main.2def8e8f.js.map"
+    "main.329c46e8.js.map": "/tuby/static/js/main.329c46e8.js.map"
   },
   "entrypoints": [
     "static/css/main.d77a14dd.css",
-    "static/js/main.2def8e8f.js"
+    "static/js/main.329c46e8.js"
   ]
 }
