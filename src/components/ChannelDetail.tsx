@@ -48,10 +48,10 @@ const ChannelDetail = () => {
           backgroundColor: "transparent",
           mt: "-140px"
         }}>
-          <CardMedia sx={{ borderRadius: '50%', width: "180px" }}
+          <CardMedia sx={{ borderRadius: '50%', width: 180 }}
             component="img"
             image={url}
-            alt={title}
+            alt={title} height={180}
           />
           <Typography variant='h6' component="p" mt={2} color="white">
             {title}<CheckCircleIcon sx={{ fontSize: 14, ml: "8px", color: "GrayText" }} />

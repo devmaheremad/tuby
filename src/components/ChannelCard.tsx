@@ -26,10 +26,11 @@ export default function ChannelCard({ channelDetails }: ChannelCardProps) {
       flexDirection: "column"
     }}>
       <Link to={channelId ? `/channel/${channelId}` : demoChannelUrl}>
-        <CardMedia sx={{ borderRadius: '50%', width: "180px" }}
+        <CardMedia sx={{ borderRadius: '50%', width: 180 }}
           component="img"
           image={url || demoThumbnailUrl}
           alt={title || demoChannelTitle}
+          height={180}
         />
       </Link>
       <Typography variant='h6' component="p" my={2}>
