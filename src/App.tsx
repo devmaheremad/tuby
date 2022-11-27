@@ -1,26 +1,28 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
-import { ChannelDetail, Feed, Navbar, SearchFeed, VideoDetail } from "./components/index";
+  ChannelDetail,
+  Feed,
+  Navbar,
+  SearchFeed,
+  VideoDetail,
+} from "./components/index";
 import { theme } from "./ownTheme";
-import { ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from "@mui/material/styles";
 
-const App = () => (
+const App = () => {
+  return (
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/tuby" element={<Feed />} />
+          <Route path="/video/:id" element={<VideoDetail />} />
+          <Route path="/channel/:id" element={<ChannelDetail />} />
+          <Route path="/search/:searchTerm" element={<SearchFeed />} />
+        </Routes>
+      </BrowserRouter>
+    </ThemeProvider>
+  );
+};
 
-  <ThemeProvider theme={theme}>
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/tuby" element={<Feed />} />
-        <Route path="/video/:id" element={<VideoDetail />} />
-        <Route path="/channel/:id" element={<ChannelDetail />} />
-        <Route path="/search/:searchTerm" element={<SearchFeed />} />
-      </Routes>
-    </BrowserRouter>
-  </ThemeProvider>
-
-)
-
-export default App
+export default App;
