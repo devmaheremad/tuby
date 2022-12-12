@@ -15,7 +15,6 @@ const Feed = () => {
       (data) => {
         setVideos(data.items);
         setScreenLoader(false);
-        console.log(videos);
       }
     );
     // eslint-disable-next-line react-hooks/exhaustive-deps
