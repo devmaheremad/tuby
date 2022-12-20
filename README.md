@@ -1,6 +1,6 @@
 # __Tuby Project__
 
-###### ![Tuby home page]([https://imgur.com/HijcJoF](https://imgur.com/HijcJoF))
+###### ![Tuby home page](https://i.ibb.co/jbmSfmz/devmaheremad-github-io-tuby.png)
 
 ###### [Watch it here live](https://devmaheremad.github.io/tuby/)
 
