@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tuby/static/css/main.3a05d5c5.css",
+    "main.js": "/tuby/static/js/main.d0f49aa7.js",
+    "index.html": "/tuby/index.html",
+    "main.3a05d5c5.css.map": "/tuby/static/css/main.3a05d5c5.css.map",
+    "main.d0f49aa7.js.map": "/tuby/static/js/main.d0f49aa7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a05d5c5.css",
+    "static/js/main.d0f49aa7.js"
+  ]
+}
