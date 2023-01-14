@@ -8,8 +8,11 @@ const Videos = ({ videos }: VideosProps) => {
       <Grid container spacing={2} mt={2} justifyContent="start">
         {videos.map((item, index) => (
           <Grid key={index} xs={12} sm={6} lg={4} xl={3} xxl={"auto"} item>
-            {item.id.videoId && <VideoCard video={item} />}
-            {item.id.channelId && <ChannelCard channelDetails={item} />}
+            {item.id.channelId ? (
+              <ChannelCard channelDetails={item} />
+            ) : (
+              <VideoCard video={item} />
+            )}
           </Grid>
         ))}
       </Grid>

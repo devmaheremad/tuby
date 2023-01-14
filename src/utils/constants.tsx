@@ -108,12 +108,11 @@ export const categories: { name: string; icon: JSX.Element }[] = [
   },
 ];
 
-export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
-export const demoChannelUrl = "/channel/UCmXmlB4-HJytD7wek0Uo97A";
-export const demoVideoUrl = "/video/GDa8kZLNhJ4";
-export const demoChannelTitle = "JavaScript Mastery";
-export const demoVideoTitle =
-  "Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI";
+export const demoThumbnailUrl = "https://i.ibb.co/m8n315t/download.webp";
+export const demoChannelUrl = "/channel/UC2Xd-TjJByJyK2w1zNwY0zQ";
+export const demoVideoUrl = "/video/Tn6-PIqc4UM";
+export const demoChannelTitle = "Fireship";
+export const demoVideoTitle = "React in 100 Seconds";
 export const demoProfilePicture =
   "http://dergipark.org.tr/assets/app/images/buddy_sample.png";
 
