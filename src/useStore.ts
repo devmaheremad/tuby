@@ -1,7 +1,7 @@
-import create from "zustand";
+import { create as createZusStore } from "zustand";
 import { UseStoreType } from "./@types/UseStore.types";
 
-export const useStore = create<UseStoreType>((set) => ({
+export const useStore = createZusStore<UseStoreType>((set) => ({
   screenLoader: false,
   selectedCategory: "Coding",
   videos: [],
