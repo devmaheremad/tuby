@@ -26,7 +26,7 @@ const HomeVideos = () => {
           color="white"
           fontWeight="700"
         >
-          {selectedCategory}{" "}
+          {selectedCategory}
         </Typography>
         videos
       </Typography>

@@ -10,9 +10,6 @@ import {
 import { ChannelCardProps } from "../@types/ChannelCard.types";
 
 const ChannelCard = ({ channelDetails }: ChannelCardProps) => {
-  if (!channelDetails?.id) {
-    return <p>"Loading..."</p>;
-  }
   const {
     id: { channelId },
     snippet: {

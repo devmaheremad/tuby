@@ -35,9 +35,10 @@ const Categories = ({ category, categoryIndex }: CategoriesTypeProps) => {
       onClick={() => useStore.setState({ selectedCategory: category.name })}
     >
       <Typography
-        variant="subtitle2"
+        variant="body1"
+        textAlign={"start"}
         textTransform="capitalize"
-        fontWeight="700"
+        fontWeight="600"
         pl={1}
         sx={{ opacity: selectedCategory === category.name ? 1 : 0.75 }}
       >

@@ -17,7 +17,7 @@ const fontSizeForIcon = {
 
 export const categories: { name: string; icon: JSX.Element }[] = [
   {
-    name: "Front-End Developer ",
+    name: "Frontend",
     icon: (
       <CodeIcon color="primary" sx={{ pb: "3px", fontSize: fontSizeForIcon }} />
     ),

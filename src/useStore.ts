@@ -3,7 +3,7 @@ import { UseStoreType } from "./@types/UseStore.types";
 
 export const useStore = createZusStore<UseStoreType>((set) => ({
   screenLoader: false,
-  selectedCategory: "Coding",
+  selectedCategory: "Frontend",
   videos: [],
   videoDetails: null,
   relatedToVideo: null,
