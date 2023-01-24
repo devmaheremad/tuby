@@ -25,6 +25,7 @@ const HomeVideos = () => {
           variant="h4"
           color="white"
           fontWeight="700"
+          mr={"5px"}
         >
           {selectedCategory}
         </Typography>

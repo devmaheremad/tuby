@@ -1,3 +1,5 @@
-export { default as Home } from "./Home";
-export { default as Channel } from "./Channel";
-export { default as Video } from "./Video";
+import { lazy } from "react";
+
+export const Home = lazy(() => import("./Home"));
+export const Channel = lazy(() => import("./Channel"));
+export const Video = lazy(() => import("./Video"));

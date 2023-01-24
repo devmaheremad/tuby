@@ -10,7 +10,7 @@ Tuby is a platform for watching YouTube videos without ads (it gets data from Ra
 
 #### - What I used technologies to build Tuby?
 
-The important things I used to create Tuby are (ReactJS v18.2.0, TypeScript 4.9, JavaScript, Material UI v5.11.1, State Management ( Zustand ), RapidAPIs, and more...)
+The important things I used to create Tuby are (ReactJS v18.2.0, TypeScript 4.9, JavaScript, Material UI v5.11.1, State Management ( Zustand ), RapidAPIs,React Lazy Load Component, Route with React Suspense, and more...)
 
 #### - Setup and using it:
 
