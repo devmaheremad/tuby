@@ -1,19 +1,30 @@
-# **Tuby Project**
+# Tuby
 
-###### ![Tuby home page](https://i.ibb.co/jbmSfmz/devmaheremad-github-io-tuby.png)
+A React + TypeScript app for browsing YouTube video data through RapidAPI, built to stay fast as content grows.
 
-###### [Watch it here live](https://devmaheremad.github.io/tuby/)
+![Tuby home page](https://i.ibb.co/jbmSfmz/devmaheremad-github-io-tuby.png)
 
-### - Introduction about Tuby:
+**Live demo:** https://devmaheremad.github.io/tuby/
 
-Tuby is a platform for watching YouTube videos without ads (it gets data from RapidAPI), Tuby is super fast to display content and doesn't show any video that is out of your interest
+## What it shows
+- **Performance:** route-level code splitting with `React.lazy` and `Suspense`, so each page loads only the code it needs.
+- **State:** Zustand for lightweight global state.
+- **UI:** Material UI v5 with responsive layouts.
+- **Data:** RapidAPI (YouTube v3) integration with structured routing for home, video, channel and search pages.
 
-#### - What I used technologies to build Tuby?
+## Stack
+React 18 · TypeScript · Zustand · Material UI 5 · React Router 6 · RapidAPI
 
-The important things I used to create Tuby are (ReactJS v18.2.0, TypeScript 4.9, JavaScript, Material UI v5.11.1, State Management ( Zustand ), RapidAPIs,React Lazy Load Component, Route with React Suspense, and more...)
+## Run locally
+```bash
+git clone https://github.com/devmaheremad/tuby.git
+cd tuby
+npm install
+npm start
+```
 
-#### - Setup and using it:
+Create a `.env` file in the project root with your own RapidAPI key (never commit it):
 
-To install Tuby to your computer it's easy you can clone it and just type `npm i` to your terminal
-Do what you need to add to it or update it or anything you need and update it again
-It's so welcomed to work with me to add new features to it
+```
+REACT_APP_RAPID_API_KEY=your-rapidapi-key
+```
